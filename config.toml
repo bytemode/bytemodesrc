@@ -35,7 +35,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	logo = "images/logo.png"
 	favicon = ""
 
-	permalink = " "
+	permalink = "#"
 
 	# Custom assets
 	custom_css = []
