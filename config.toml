@@ -1,0 +1,4 @@
+baseURL = "http://bytemode.github.io/"
+languageCode = "en-us"
+title = "Go Learn"
+theme = "theme = "hugo-material-docs""
