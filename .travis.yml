@@ -10,7 +10,7 @@ script:
 deploy:
     provider: pages
     skip_cleanup: true
-    github_token: <$travis>
+    github_token: $github_token
     on:
         branch: master
     local_dir: public
