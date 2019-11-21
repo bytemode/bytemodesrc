@@ -1,4 +1,4 @@
-baseURL = "http://bytemode.github.io/"
+baseURL = "https://blog.chuangyutime.com/"
 languageCode = "en-us"
 title = "Go Learn"
 theme = "hugo-material-docs"
