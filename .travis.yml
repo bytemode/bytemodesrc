@@ -15,7 +15,6 @@ deploy:
         branch: master
     local_dir: public
     repo: bytemode/bytemode.github.io
-    #fqdn: blog.chuangyutime.com
     target_branch: master
     email: sunfeng45@163.com
     name: bytemode
