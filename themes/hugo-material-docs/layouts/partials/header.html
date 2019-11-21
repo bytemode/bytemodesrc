@@ -15,11 +15,12 @@
             <a href="http://bytemode.github.io/" title="Home" target="_blank"  class="toggle-button icon icons-home3"></a>
         </div>
 
+        {{ with .Site.Social.youtube }}
         <div class="button button-youtube" role="button" aria-label="Youtube">
             <a href="{{ .Site.Social.youtube }}" title="Youtube" target="_blank"  class="toggle-button icon icons-youtube"></a>
         </div>
         
-        {{ with .Site.Social.twitter }}
+        {{ end }} {{ with .Site.Social.twitter }}
         <div class="button button-twitter" role="button" aria-label="Twitter">
             <a href="https://twitter.com/{{ . }}" title="@{{ . }} on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
         </div>
