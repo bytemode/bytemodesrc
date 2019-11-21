@@ -7,6 +7,7 @@ install:
 script:
     - hugo
     - echo 'Hugo build done!'
+    - echo '$GITHUB_TOKEN'
 deploy:
     provider: pages
     skip_cleanup: true
@@ -20,3 +21,4 @@ deploy:
     email: sunfeng45@163.com
     name: bytemode
     local-dir: public_github
+    keep_history: true
